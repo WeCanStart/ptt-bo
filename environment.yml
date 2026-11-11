@@ -1,0 +1,15 @@
+name: ttgp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0,<3
+  - scipy>=1.13
+  - scikit-learn>=1.5
+  - pandas>=2.2
+  - matplotlib>=3.9
+  - pip
+  - pip:
+      - cma>=3.3
+      - teneva>=0.14
+      - opt_einsum>=3.3

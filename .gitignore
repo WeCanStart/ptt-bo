@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw per-run results live in results/raw_runs.zip; unpacked copies are not tracked
+results/e6_part*.json
+results/e6b_part*.json
+results/e4b_part*.json
+results/e7/
+results/e8/
+results/e9/
+results/e10/
+results/e11/
+results/e11b/
+results/e13/
+results/e14/
+results/logs/
+results_prev_*/
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.xdv
+*.synctex.gz
