@@ -1,0 +1,16 @@
+problem,other,n,ref_wins,other_wins,median_ratio,p_wilcoxon
+hartmann6,tt_eilf_l015,4,2,2,0.9907135553579243,0.625
+hartmann6,tt_eilf_l040,4,3,1,1.5775836689554834,0.875
+hartmann6,tt_eilf_r2,4,2,2,1.009232930102764,0.875
+hartmann6,tt_eilf_r8,4,1,3,0.9308370316576895,0.375
+hartmann6,tt_eilf_zero,4,4,0,3.373294686756027,0.125
+rosenbrock10,tt_eilf_l015,4,3,1,1.5054482622012233,0.375
+rosenbrock10,tt_eilf_l040,4,3,1,1.3928515014964273,0.25
+rosenbrock10,tt_eilf_r2,4,3,1,1.1324629464316192,0.625
+rosenbrock10,tt_eilf_r8,4,2,2,1.0017183476517602,0.875
+rosenbrock10,tt_eilf_zero,4,4,0,3.649091100879936,0.125
+zakharov10,tt_eilf_l015,4,2,2,1.08666285850248,0.875
+zakharov10,tt_eilf_l040,4,2,2,1.030776963114362,0.875
+zakharov10,tt_eilf_r2,4,1,2,0.9565060982058102,1.0
+zakharov10,tt_eilf_r8,4,0,3,0.8172098285111877,0.25
+zakharov10,tt_eilf_zero,4,4,0,2.0253792460254516,0.125

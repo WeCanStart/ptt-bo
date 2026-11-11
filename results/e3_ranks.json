@@ -1,0 +1,562 @@
+[
+ {
+  "problem": "branin",
+  "d": 2,
+  "n": 64,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "branin_rot",
+  "d": 2,
+  "n": 64,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 6,
+  "rank_eps0.0001": 6,
+  "rank_eps1e-06": 7
+ },
+ {
+  "problem": "hartmann3",
+  "d": 3,
+  "n": 32,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 4,
+  "rank_eps0.0001": 4,
+  "rank_eps1e-06": 4
+ },
+ {
+  "problem": "hartmann3_rot",
+  "d": 3,
+  "n": 32,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 8,
+  "rank_eps0.0001": 12,
+  "rank_eps1e-06": 15
+ },
+ {
+  "problem": "hartmann6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 4,
+  "rank_eps0.0001": 4,
+  "rank_eps1e-06": 4
+ },
+ {
+  "problem": "hartmann6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 85,
+  "rank_eps0.0001": 218,
+  "rank_eps1e-06": 402
+ },
+ {
+  "problem": "rosenbrock6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "rosenbrock6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 13,
+  "rank_eps0.0001": 13,
+  "rank_eps1e-06": 13
+ },
+ {
+  "problem": "rosenbrock6_perm",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 6,
+  "rank_eps0.0001": 6,
+  "rank_eps1e-06": 6
+ },
+ {
+  "problem": "rastrigin6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "rastrigin6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 14,
+  "rank_eps0.0001": 14,
+  "rank_eps1e-06": 14
+ },
+ {
+  "problem": "ackley6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 9,
+  "rank_eps0.0001": 15,
+  "rank_eps1e-06": 45
+ },
+ {
+  "problem": "ackley6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 1082,
+  "rank_eps0.0001": 1644,
+  "rank_eps1e-06": 1717
+ },
+ {
+  "problem": "griewank6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "griewank6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 66,
+  "rank_eps0.0001": 66,
+  "rank_eps1e-06": 66
+ },
+ {
+  "problem": "levy6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "levy6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 39,
+  "rank_eps0.0001": 39,
+  "rank_eps1e-06": 39
+ },
+ {
+  "problem": "styblinski6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "styblinski6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 14,
+  "rank_eps0.0001": 14,
+  "rank_eps1e-06": 14
+ },
+ {
+  "problem": "michalewicz6",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "michalewicz6_rot",
+  "d": 6,
+  "n": 12,
+  "how": "full+svd",
+  "cross_err": 0.0,
+  "rank_eps0.01": 323,
+  "rank_eps0.0001": 420,
+  "rank_eps1e-06": 490
+ },
+ {
+  "problem": "rosenbrock10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 3.4742783442422045e-14,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "rosenbrock10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 6.292556268735105e-15,
+  "rank_eps0.01": 21,
+  "rank_eps0.0001": 21,
+  "rank_eps1e-06": 21
+ },
+ {
+  "problem": "rosenbrock10_perm",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.3587717551027317e-15,
+  "rank_eps0.01": 7,
+  "rank_eps0.0001": 7,
+  "rank_eps1e-06": 7
+ },
+ {
+  "problem": "rosenbrock20",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 5.4554690780398794e-11,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "rosenbrock20_rot",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.0020106621847975,
+  "rank_eps0.01": 22,
+  "rank_eps0.0001": 25,
+  "rank_eps1e-06": 26
+ },
+ {
+  "problem": "rosenbrock20_perm",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 4.038771352285416e-15,
+  "rank_eps0.01": 17,
+  "rank_eps0.0001": 17,
+  "rank_eps1e-06": 17
+ },
+ {
+  "problem": "rastrigin10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.9319506683481975e-15,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "rastrigin10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.232083983539104e-14,
+  "rank_eps0.01": 22,
+  "rank_eps0.0001": 22,
+  "rank_eps1e-06": 22
+ },
+ {
+  "problem": "rastrigin20",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.2427298884695915e-15,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "rastrigin20_rot",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 0.15653831202936813,
+  "rank_eps0.01": 24,
+  "rank_eps0.0001": 25,
+  "rank_eps1e-06": 25
+ },
+ {
+  "problem": "levy10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 3.0933193321766673e-15,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "levy10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 0.4177201421562524,
+  "rank_eps0.01": 37,
+  "rank_eps0.0001": 39,
+  "rank_eps1e-06": 39
+ },
+ {
+  "problem": "levy20",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.1550598539266685e-15,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "levy20_rot",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 0.5219909999689568,
+  "rank_eps0.01": 24,
+  "rank_eps0.0001": 24,
+  "rank_eps1e-06": 24
+ },
+ {
+  "problem": "styblinski10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 4.266610804223288e-15,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "styblinski10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.422431994574797e-14,
+  "rank_eps0.01": 22,
+  "rank_eps0.0001": 22,
+  "rank_eps1e-06": 22
+ },
+ {
+  "problem": "styblinski20",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 3.003220778334218e-15,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 2,
+  "rank_eps1e-06": 2
+ },
+ {
+  "problem": "styblinski20_rot",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.4617567836746246,
+  "rank_eps0.01": 22,
+  "rank_eps0.0001": 27,
+  "rank_eps1e-06": 27
+ },
+ {
+  "problem": "ackley10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 9.320713420801841e-12,
+  "rank_eps0.01": 2,
+  "rank_eps0.0001": 4,
+  "rank_eps1e-06": 7
+ },
+ {
+  "problem": "ackley10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 0.00871110336086489,
+  "rank_eps0.01": 13,
+  "rank_eps0.0001": 40,
+  "rank_eps1e-06": 40
+ },
+ {
+  "problem": "ackley20",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.2984769324720512e-10,
+  "rank_eps0.01": 1,
+  "rank_eps0.0001": 4,
+  "rank_eps1e-06": 5
+ },
+ {
+  "problem": "ackley20_rot",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 0.017570026663304355,
+  "rank_eps0.01": 16,
+  "rank_eps0.0001": 26,
+  "rank_eps1e-06": 26
+ },
+ {
+  "problem": "smoothTT10_r2",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.976510133787547e-12,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "smoothTT10_r4",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.95572952182574e-14,
+  "rank_eps0.01": 5,
+  "rank_eps0.0001": 5,
+  "rank_eps1e-06": 5
+ },
+ {
+  "problem": "smoothTT20_r2",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.966138815130634e-11,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "smoothTT20_r4",
+  "d": 20,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 3.360540030392154e-12,
+  "rank_eps0.01": 5,
+  "rank_eps0.0001": 5,
+  "rank_eps1e-06": 5
+ },
+ {
+  "problem": "dixonprice10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 4.232272727155114e-14,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 3,
+  "rank_eps1e-06": 3
+ },
+ {
+  "problem": "dixonprice10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.1378598529477415e-14,
+  "rank_eps0.01": 21,
+  "rank_eps0.0001": 21,
+  "rank_eps1e-06": 21
+ },
+ {
+  "problem": "dixonprice10_perm",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.261730298906016e-15,
+  "rank_eps0.01": 6,
+  "rank_eps0.0001": 7,
+  "rank_eps1e-06": 7
+ },
+ {
+  "problem": "powell12",
+  "d": 12,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.5274788020082237e-15,
+  "rank_eps0.01": 8,
+  "rank_eps0.0001": 8,
+  "rank_eps1e-06": 8
+ },
+ {
+  "problem": "powell12_rot",
+  "d": 12,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.532243541602498e-14,
+  "rank_eps0.01": 19,
+  "rank_eps0.0001": 20,
+  "rank_eps1e-06": 20
+ },
+ {
+  "problem": "powell12_perm",
+  "d": 12,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 1.8725342836942885e-14,
+  "rank_eps0.01": 17,
+  "rank_eps0.0001": 17,
+  "rank_eps1e-06": 17
+ },
+ {
+  "problem": "zakharov10",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 4.513154241381807e-15,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 5,
+  "rank_eps1e-06": 5
+ },
+ {
+  "problem": "zakharov10_rot",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 2.5750904280866676e-14,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 5,
+  "rank_eps1e-06": 5
+ },
+ {
+  "problem": "zakharov10_perm",
+  "d": 10,
+  "n": 16,
+  "how": "cross",
+  "cross_err": 5.520664478004735e-15,
+  "rank_eps0.01": 3,
+  "rank_eps0.0001": 5,
+  "rank_eps1e-06": 5
+ }
+]
