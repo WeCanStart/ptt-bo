@@ -7,7 +7,7 @@
 | **Автор** | Артём Хапилов |
 | **Научный руководитель** | Глеб Рыжаков |
 | **Статья (черновик)** | [`paper/main.pdf`](paper/main.pdf) |
-| **Презентация** | [`slides/slides.pdf`](slides/slides.pdf) (Beamer), [`slides/slides.pptx`](slides/slides.pptx) |
+| **Доклад (1 слайд, 1.5 мин)** | [`slides/slide.pdf`](slides/slide.pdf) (Beamer), [`slides/slide.pptx`](slides/slide.pptx); расширенная версия на 4 слайда — [`slides/extended/`](slides/extended) |
 
 ## Аннотация
 
@@ -92,7 +92,7 @@ run_all.py        запуск всех экспериментов паралл�
 results/          сводные таблицы (CSV/JSON); raw_runs.zip — все отдельные прогоны (3276 JSON)
 figures/          рисунки
 paper/            черновик статьи (LaTeX + PDF, references.bib)
-slides/           презентация (Beamer + PDF, PPTX)
+slides/           доклад на один слайд (Beamer + PDF, PPTX); extended/ — версия на 4 слайда
 docs/             план и журнал экспериментов
 ```
 
@@ -109,7 +109,7 @@ python run_all.py --workers 8 --only new3    # E14 + шум
 
 Все прогоны используют фиксированные сиды и один поток BLAS. Чтобы перерисовать рисунки без пересчёта,
 распакуйте `results/raw_runs.zip` в `results/` и выполните `python run_all.py --plots`.
-Статья и слайды собираются XeLaTeX: `cd paper && latexmk -xelatex main.tex`, `cd slides && latexmk -xelatex slides.tex`.
+Статья и слайды собираются XeLaTeX: `cd paper && latexmk -xelatex main.tex`, `cd slides && latexmk -xelatex slide.tex`.
 
 ## Литература
 
